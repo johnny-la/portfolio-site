@@ -56,6 +56,11 @@ img {
     width: auto;
 }
 
+.center-img {
+    display: block;
+    margin: 0 auto;
+}
+
 li {
     list-style: none;
 }
