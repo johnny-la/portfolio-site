@@ -1,0 +1,371 @@
+@charset "UTF-8";
+
+article, aside, footer, section, nav, main {
+    display: block;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, ul, li, a, p,
+article, aside, footer, header, main, nav, section {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Cabin Condensed";
+    color: #EEE;
+    background-color: #213540;
+    margin: 0 auto;
+}
+
+main {
+    font-family: "Arial";
+    font-weight: 100;
+    font-size: 16px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+section {
+    border-bottom: 1px solid #55656c;
+    padding: 15px 0;
+}
+
+aside {
+    padding: 15px 2.5% 0 2.5%;
+    float: left;
+    width: 20%;
+}
+
+article {
+    padding: 7px 33px 10px 33px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 100;
+    color: #EEE;
+    margin: 10px;
+    text-align: justify;
+}
+
+img {
+    border: none;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    height: 0;
+    text-decoration: none;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.navHeader {
+    height: 41px;
+    background-color: #000;
+}
+
+.logo {
+    background-color: #000;
+    padding: 5px 0 0 6%;
+    float: left;
+}
+
+nav {
+    background-color: #000;
+    float: right;
+    padding-right: 6%;
+}   
+
+nav ul {
+    
+}
+
+nav ul li {
+    display: inline;
+}
+
+.navButton {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin: 13px 0 0 35px;
+    color: #AAA;
+}
+.navButton:hover {
+    color: white;
+}
+
+.pageHeader {
+    padding: 0px 0 10px 8.5%;
+    background: #000;
+    clear: both;
+    border-bottom: 2px solid #AAA;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: "ChunkFive";
+    font-size: 48px;
+    font-weight: 100;
+    color: #FFF;
+}
+
+.titleHeader {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 260px;
+    border-bottom: 2px solid #55656c;
+    background-image: url("img/Cityscape.jpg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.freeTheBobHeader {
+    text-align: center;
+    padding: 100px 0 150px 100px;
+    border-bottom: 2px solid #55656c;
+    background-image: url("img/Cityscape.jpg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 100;
+    color: #64cbf6;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    color: #FFF;
+}
+
+.h2Span {
+    border-top: #5e7179 solid 1px;
+}
+
+.viewButton {
+	-moz-box-shadow:inset 0px -22px 0px -8px #7a2626;
+	-webkit-box-shadow:inset 0px -22px 0px -8px #7a2626;
+	box-shadow:inset 0px -22px 0px -8px #7a2626;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #932525), color-stop(1, #a33232) );
+	background:-moz-linear-gradient( center top, #932525 5%, #a33232 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#932525', endColorstr='#a33232');
+	background-color:#932525;
+	-webkit-border-top-left-radius:4px;
+	-moz-border-radius-topleft:4px;
+	border-top-left-radius:4px;
+	-webkit-border-top-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	border-top-right-radius:4px;
+	-webkit-border-bottom-right-radius:4px;
+	-moz-border-radius-bottomright:4px;
+	border-bottom-right-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-bottomleft:4px;
+	border-bottom-left-radius:4px;
+	text-indent:0px;
+	border:1px solid #8f4141;
+	display:inline-block;
+	color:#ffa8a8;
+	font-size:14px;
+	font-style:normal;
+	height:28px;
+	line-height:28px;
+	width:140px;
+	text-decoration:none;
+	text-align:center;
+    text-transform: uppercase;
+    font-family: "Cabin Condensed";
+}
+.viewButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a33232), color-stop(1, #932525) );
+	background:-moz-linear-gradient( center top, #a33232 5%, #932525 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a33232', endColorstr='#932525');
+	background-color:#a33232;
+}.viewButton:active {
+	position:relative;
+	top:1px;
+}
+
+.linkedin-img {
+    margin: 15px 0px;
+    vertical-align: middle;
+}
+
+.github-img {
+    margin: 15px 0px 15px 5px;
+    vertical-align: middle;
+}
+
+/* The name beside the linked-in logo at the top of the page. */
+.titleBlurb {
+    display: inline;
+    verticle-align: middle;
+}
+
+.horizontalSeparator {
+    border-top: #5e7179 solid 1px;
+    width: 100%;
+}
+
+.projectBanner {
+
+}
+
+.projectDescriptionTable {
+    padding: 7px 33px 10px 33px;
+    margin: 0 auto;
+}
+
+.projectTitleColumn {
+    vertical-align: top;
+    line-height: 25px;
+    max-width: 30%;
+}
+
+.projectInfoColumn {
+    vertical-align: top;
+    line-height: 25px;
+}
+
+.strong-red {
+    font-weight: 100;
+    color: #f26c64;
+}
+
+.strong-green {
+    font-weight: 100;
+    color: #408c7d;
+}
+
+.strong-blue {
+    font-weight: 100;
+    color: #7dd1ff;
+}
+
+.viewButtonWrapper {
+    text-align: right;
+    padding-top: 7px;
+    padding-right: 30px;
+}
+
+.articleHeader {
+    padding-bottom: 10px;
+    margin-bottom: 7px;
+    text-align: center;
+    border-bottom: #7dd1ff solid 1px;
+}
+
+.blurbArticle {
+    width = 86%;
+    margin 0 auto;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+h4 {
+    font-family: "ChunkFive";
+    font-weight: 100;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.profile-img {
+    vertical-align: top;
+    text-align: right;
+    width: 20%;
+}
+
+footer {
+    background-color: #e8d9ba;
+    height: 65px;
+    width: 80%;
+    text-align: center;
+    padding: 0 10%;
+    margin: 475px 0 0 0;
+}
+
+.footer-img {
+    position: relative;
+    margin-top: -220px;
+    text-align: center;
+}
+
+.linkedin-img-footer {
+    float: left;
+    margin-right: 0;
+}
+
+.github-img-footer {
+    color: blue;
+    float: left;
+}
+
+.footerBlurb {
+    color: #7e7e7e;
+    display: inline;
+    padding-top: 12px;
+    float: left;
+}
+
+.copyrightBlurb {
+    color: #7e7e7e;
+    display: inline;
+    padding-top: 12px;
+    float: right;
+}
+
+
+/************************************************************************************
+*                                                                                   *
+*                            Free the Bob - Project Page                            *
+*                                                                                   *
+*                                                                                   *
+*************************************************************************************/
+
+.freeTheBobLogo {
+    /*padding-left: 100px;*/
+}
+
+.projectImageSection {
+    width: 75%;
+    float: right;
+}
+
+.projectDetailsTable {
+}
+
+.projectDetailsTable {
+}
+
+.table-side-img {
+    width: 20%;
+}
+
+.gameplay-img {
+    max-width:90%;
+    display: inline;
+}
+
+.returnButtonContainer {
+    text-align: center;
+    padding: 28px 0 0 0;
+}
