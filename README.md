@@ -1,9 +1,9 @@
 Portfolio
 ==============
 
-[##View the website](http://cs.mcgill.ca/~jlucui/portfolio)
-
 This is my personal portfolio website, featuring programming and project samples.
+
+[View the website](http://cs.mcgill.ca/~jlucui/portfolio)
 
 ![portfolio_header](https://cloud.githubusercontent.com/assets/10332234/5592872/808c07cc-91b6-11e4-8376-2871c2375a3a.png)
 
