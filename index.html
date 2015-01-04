@@ -59,13 +59,15 @@
         <main>
              <a name="projects-anchor"></a>
         
-            <!-- Top LinkedIn Header -->
-            <a href="http://ca.linkedin.com/pub/jonathan-lucuix-andré/97/489/a7b/">
-                <img class="linkedin-img" src="img\linkedin.png" alt="LinkedIn"></img>
-            </a>
-            <a href="http://github.com/johnny-la">
-                <img class="github-img" src="img\github.png" alt="GitHub Profile"></img>
-            </a>
+            <div class="socialMediaIcons">
+                <!-- Top LinkedIn Header -->
+                <a href="http://ca.linkedin.com/pub/jonathan-lucuix-andré/97/489/a7b/">
+                    <img class="linkedin-img" src="img\linkedin.png" alt="LinkedIn"></img>
+                </a>
+                <a href="http://github.com/johnny-la">
+                    <img class="github-img" src="img\github.png" alt="GitHub Profile"></img>
+                </a>
+            </div>
             <p class="titleBlurb">Jonathan Lucuix-André | Student, Programmer</p>
             
             <div class="horizontalSeparator"></div>
@@ -135,7 +137,7 @@
                     </table>
                 
                     <div class="viewButtonWrapper">
-                        <a class="viewButton" href="project_freethebob.html">Tell me more</a>
+                        <a class="viewButton" href="project_kittyswing.html">Tell me more</a>
                     </div>
                 </article>
             </section>
@@ -149,6 +151,11 @@
                 
                 <article class="blurbArticle">
                     <table>
+                        <tr class="profile-img-top">
+                            <td>
+                                <img src="img\ProfilePic.png"></img>
+                            </td>
+                        </tr>
                         <tr>
                             <td>
                                 <p>Programmer. Gamer. Enthusiast.</p>
@@ -176,16 +183,21 @@
         
         <!-- Footer -->
         <footer>
-            <img class="footer-img" src="img\Bob_Sleeping.png"></img>
-            <a href="http://ca.linkedin.com/pub/jonathan-lucuix-andré/97/489/a7b/">
-                <img class="linkedin-img linkedin-img-footer" src="img\linkedin.png" alt="LinkedIn Profile"></img>
-            </a>
-            <a href="http://github.com/johnny-la">
-                <img class="github-img github-img-footer" src="img\github.png" alt="GitHub Profile"></img>
-            </a>
-            <p class="footerBlurb">View my social media pages</p>
+            <div id="footer-top-margin"></div>
             
-            <p class="copyrightBlurb">Jonathan Lucuix-André</p>
+            <div id="footer-bottom-margin">
+                <div class="socialMediaIcons socialMediaIcons-footer">
+                    <a href="http://ca.linkedin.com/pub/jonathan-lucuix-andré/97/489/a7b/">
+                        <img class="linkedin-img linkedin-img-footer" src="img\linkedin.png" alt="LinkedIn Profile"></img>
+                    </a>
+                    <a href="http://github.com/johnny-la">
+                        <img class="github-img github-img-footer" src="img\github.png" alt="GitHub Profile"></img>
+                    </a>
+                </div>
+                <p class="footerBlurb">View my social media pages</p>
+                
+                <p class="copyrightBlurb">Jonathan Lucuix-André</p>
+            </div>
         </footer>
     </body>
 </html>

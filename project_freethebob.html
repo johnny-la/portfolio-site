@@ -61,7 +61,7 @@
                         <h4>Details</h4>
                 </header>
                                    
-                <article>                   
+                <article class="projectDetailsArticle">                   
                     <!-- Project Details Table -->
                     <table class="projectDetailsTable">
                         <tr>
@@ -86,15 +86,15 @@
                         <h4>Try it</h4>
                 </header>
                                    
-                <article>                   
+                <article class="projectDetailsArticle">                   
                     <!-- Project Details Table -->
                     <table class="projectDetailsTable">
                         <tr>
-                            <a class="viewButton" href="http://cs.mcgill.ca/~jlucui/free_the_bob/FreeTheBob.jar" target="_blank">Windows</a>
+                            <a class="viewButton" href="dls/free_the_bob/FreeTheBob.jar" target="_blank">Windows</a>
                             <br/><br/>
                         </tr>
                         <tr>
-                            <a class="viewButton" href="http://cs.mcgill.ca/~jlucui/free_the_bob/survivor-android.apk" target="_blank">Android</a>
+                            <a class="viewButton" href="dls/free_the_bob/survivor-android.apk" target="_blank">Android</a>
                         </tr>
                     </table>
                 </article>
@@ -156,7 +156,6 @@
                                 <a href="https://github.com/johnny-la/survivor" target="_blank">
                                     <strong class="strong-blue">here</strong>
                                 </a>
-                                <br/><br/>
                             </td>
                         </tr>
                         <tr>
@@ -170,10 +169,9 @@
                                 along with an explanation of each Java class and
                                 its corresponding UML diagram.
                                 
-                                <a href="downloads\Design Document.pdf" target="_blank">
+                                <a href="dls\free_the_bob\FreeTheBob-DesignDocument.pdf" target="_blank">
                                     <strong class="strong-blue">Download</strong>
                                 </a>
-                                
                             </td>
                         </tr>
                         <tr>
@@ -184,7 +182,7 @@
                                 The game manual includes tutorials for the game and instructions on how to install 
                                 the project onto a mobile device given the APK file or the source code.
                                 
-                                <a href="downloads\Design Document.pdf" target="_blank">
+                                <a href="dls\free_the_bob\FreeTheBob-GameManual.pdf" target="_blank">
                                     <strong class="strong-blue">Download</strong>
                                 </a>
                             </td>
@@ -209,16 +207,21 @@
         
         <!-- Footer -->
         <footer>
-            <img class="footer-img" src="img\Bob_Sleeping.png"></img>
-            <a href="http://ca.linkedin.com/pub/jonathan-lucuix-andré/97/489/a7b/">
-                <img class="linkedin-img linkedin-img-footer" src="img\linkedin.png" alt="LinkedIn Profile"></img>
-            </a>
-            <a href="http://github.com/johnny-la">
-                <img class="github-img github-img-footer" src="img\github.png" alt="GitHub Profile"></img>
-            </a>
-            <p class="footerBlurb">View my social media pages</p>
+            <div id="footer-top-margin"></div>
             
-            <p class="copyrightBlurb">Jonathan Lucuix-André</p>
+            <div id="footer-bottom-margin">
+                <div class="socialMediaIcons socialMediaIcons-footer">
+                    <a href="http://ca.linkedin.com/pub/jonathan-lucuix-andré/97/489/a7b/">
+                        <img class="linkedin-img linkedin-img-footer" src="img\linkedin.png" alt="LinkedIn Profile"></img>
+                    </a>
+                    <a href="http://github.com/johnny-la">
+                        <img class="github-img github-img-footer" src="img\github.png" alt="GitHub Profile"></img>
+                    </a>
+                </div>
+                <p class="footerBlurb">View my social media pages</p>
+                
+                <p class="copyrightBlurb">Jonathan Lucuix-André</p>
+            </div>
         </footer>
     </body>
 </html>

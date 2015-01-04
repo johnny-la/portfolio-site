@@ -153,6 +153,9 @@ h3 {
     font-weight: 100;
     color: #64cbf6;
     padding-bottom: 10px;
+    max-width: 420px;
+    margin: 0 auto;
+    border-bottom: #5e7179 solid 1px;
 }
 
 h2 {
@@ -160,10 +163,6 @@ h2 {
     font-weight: 100;
     margin-bottom: 30px;
     color: #FFF;
-}
-
-.h2Span {
-    border-top: #5e7179 solid 1px;
 }
 
 .viewButton {
@@ -210,13 +209,18 @@ h2 {
 	top:1px;
 }
 
+.socialMediaIcons {
+    display: inline;
+    vertical-align: middle;
+}
+
 .linkedin-img {
-    margin: 15px 0px;
+    padding: 15px 0px 15px 10px;
     vertical-align: middle;
 }
 
 .github-img {
-    margin: 15px 0px 15px 5px;
+    padding: 15px 5px;
     vertical-align: middle;
 }
 
@@ -299,29 +303,42 @@ h4 {
     width: 20%;
 }
 
-footer {
-    background-color: #e8d9ba;
-    height: 65px;
-    width: 80%;
-    text-align: center;
-    padding: 0 10%;
-    margin: 475px 0 0 0;
+.profile-img-top {
+    display: none;
 }
 
-.footer-img {
-    position: relative;
-    margin-top: -220px;
+footer {
+    width: 100%;
+    background-color: #213540;
+    background-image: url("img/Bob_Sleeping.png");
+    background-repeat: no-repeat;
+    background-position: center 254px;
     text-align: center;
+    padding: auto 10%;
+}
+
+#footer-top-margin {
+    width: 100%;
+    height: 475px;
+}
+
+#footer-bottom-margin {
+    background-color: #e8d9ba;
+    width: 100%;
+    height: 65px;
+}
+
+.socialMediaIcons-footer {
+    padding-left: 10%;
+    float: left;
 }
 
 .linkedin-img-footer {
-    float: left;
-    margin-right: 0;
+    
 }
 
 .github-img-footer {
-    color: blue;
-    float: left;
+
 }
 
 .footerBlurb {
@@ -335,6 +352,7 @@ footer {
     color: #7e7e7e;
     display: inline;
     padding-top: 12px;
+    padding-right: 10%;
     float: right;
 }
 
@@ -347,15 +365,12 @@ footer {
 *************************************************************************************/
 
 .freeTheBobLogo {
-    /*padding-left: 100px;*/
+   
 }
 
 .projectImageSection {
     width: 75%;
     float: right;
-}
-
-.projectDetailsTable {
 }
 
 .projectDetailsTable {
@@ -373,4 +388,188 @@ footer {
 .returnButtonContainer {
     text-align: center;
     padding: 28px 0 0 0;
+}
+
+/************************************************************************************
+*                                                                                   *
+*                            Media Queries                                          *
+*                                                                                   *
+*************************************************************************************/
+
+@media screen and (max-width: 1080px) {
+    main {
+        width: 97%;
+    }
+    
+    .projectDescriptionTable {
+        padding: 7px 10px 10px 10px;
+        margin: 0 auto;
+    }
+    
+    .footerBlurb {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 465px) {    
+    main {
+        width: 95%;
+    }
+    
+    article {
+        padding-left: 5px;
+        padding-right: 5px;
+    }   
+    
+    aside {
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 95%;
+    }
+    
+    .navHeader {
+        text-align: center;
+        height: 73px;
+    }
+    
+    .logo {
+        padding: 5px 0 0 0;
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+    nav {
+        float: none;
+        padding: 0;
+        margin: 0 auto;
+    }   
+    
+    .navButton {
+        margin: 5px 10px 0 10px;
+    }
+    
+    .pageHeader {
+        clear: both;
+        padding: 0px 0 10px 0;
+        text-align: center;
+        border-bottom: 2px solid #AAA;
+    }
+    
+    h3 {
+        max-width: 95%;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+    
+    .socialMediaIcons {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .titleBlurb {
+        display: block;
+        text-align: center;
+    }
+    
+    .projectDescriptionTable {
+        padding: 7px 0px 10px 0px;
+    }
+
+    .projectTitleColumn {
+        vertical-align: top;
+        line-height: 25px;
+        max-width: 30%;
+    }
+
+    .projectInfoColumn {
+        vertical-align: top;
+        line-height: 25px;
+    }
+    
+    .viewButtonWrapper {
+        text-align: center;
+        padding: 0;
+    }
+    
+    .profile-img {
+        display: none;
+    }
+    
+    .profile-img-top {
+        display: block;
+        margin: 0 0 0 30.5%;
+        width: 50%;
+        height: auto;
+    }
+
+    footer {
+        background-position: center 208px;
+        background-size: 325px 155.5px;
+    }
+
+    #footer-top-margin {
+        height: 350px;
+    }
+    
+    .socialMediaIcons-footer{
+        float: none;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .linkedin-img-footer {
+        padding-left: 0;
+    }
+    
+    .github-img-footer {
+        padding-right: 0;
+    }
+    
+    .footerBlurb {
+        display: none;
+    }
+
+    .copyrightBlurb {
+        display: none;
+    }
+    
+    /************************ Free the Bob - Project Page **********************/    
+    .projectDetailsArticle {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .projectDetailsTable {
+        margin: 0 auto;
+    }
+    
+    .projectImageSection {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .gameplay-img {
+        max-width: 100%;
+    }
+    
+    .table-side-img {
+        display: none;
+    }
+    
+    .blurbArticle {
+        width: 95%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+
 }
