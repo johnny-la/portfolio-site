@@ -156,7 +156,7 @@ h3 {
     margin: 0 auto;
 }
 
-section.full-screen-section {
+.full-screen-section {
     height: 100vh;
 }
 
@@ -199,6 +199,14 @@ section.red {
     position: relative; /* Allows "Project" title image to be placed relative to this background */
     margin: 0 auto;
     width: 1000px;
+}
+
+#full-screen-gameplay-img {
+    background: rgba(1,1,1,0.5) url(img/Gameplay_01.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 p.border-plate-text {
