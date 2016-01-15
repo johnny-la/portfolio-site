@@ -18,8 +18,3 @@ This is my personal portfolio website, featuring programming and project samples
 Coding
 ==============
 The site was hand-coded in HTML5 using custom CSS style sheets.
-
-Contributions
-==============
-At its current stage, the website needs to be refined in terms of its responsiveness for smaller screen sizes. 
-Additionally, general SEO improvements are a welcome contribution.
